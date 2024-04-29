@@ -1,6 +1,7 @@
 # Todo App з використанням React, React Router, Redux і CSS
 
 Цей проект є простим додатком Todo, реалізованим з використанням популярних технологій React, React Router, Redux і CSS.
+
 [DEMO LINK](https://simple-todo-app-coral.vercel.app/)
 ## Опис проекту
 
