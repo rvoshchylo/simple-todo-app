@@ -28,7 +28,7 @@ const Todos: React.FC = () => {
           </div>
           <form onSubmit={handleSubmit} className="justify-content-between text-white p-2 d-flex gap-2">
             <div className="form-group flex-fill mb-2">
-              <input onChange={(event) => setTodoTitle(event.target.value)} type="text" className="form-control pl-0" value={todoTitle} />
+              <input onChange={(event) => setTodoTitle(event.target.value)} type="text" className="form-control" value={todoTitle} />
             </div>
             <button type="submit" className="btn btn-primary mb-2 ml-2">Add todo</button>
           </form>

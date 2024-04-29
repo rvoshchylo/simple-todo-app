@@ -14,7 +14,7 @@ const TodoList = () => {
     <ul className="list-group">
       {todos.map((todo) => (
         <div key={todo.id} className="m-2">
-          <li className="list-group-item d-flex justify-content-between align-items-center">
+          <li className="list-group-item d-flex justify-content-between align-items-center rounded">
             {todo.text}
             <button onClick={() => handleDelete(todo.id, todo.text)} className="btn btn-danger">
               Delete
